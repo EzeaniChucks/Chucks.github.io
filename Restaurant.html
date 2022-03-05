@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Restaurant</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div>
+		<div style="display:grid; grid-template-columns: 1fr 1fr 1fr;">
+			<h1 class="textColor alignCenter foodInk" style="font-size: 4em; grid-column: 2/3;font-family: 'Blackadder ITC';">F<span style="font-family: Nirmala;">oodink</span></h1>
+		<!-- <h2 class="alignCenter">Welcome</h3> -->
+		</div>
+		<nav class="alignCenter">
+			<ul>
+				<!-- <li>Home</li> -->
+				<li>About</li>
+				<li>Place Orders</li>
+			</ul>
+		</nav> <br>
+		<h3 class="alignCenter">What would you like to order</h3>
+		<div class="foodCat">
+			<div class="foodCatPositn">
+				<img src="./foodImg/rWine.png">
+				<p>Wine</p>
+			</div>
+			<div class="foodCatPositn">
+				<img src="./foodImg/rFood.png">
+				<p>Food</p>
+			</div>
+			<div class="foodCatPositn">
+				<img src="./foodImg/rFruits.png">
+				<p>Fruits</p>
+			</div>
+			<div class="foodCatPositn">
+				<img src="./foodImg/rAlcohol.png">
+				<p>Beverages and Alcohol</p>
+			</div>
+		</div>
+		<div class="container">
+			<div class="counterDiv">
+				<p3>First Counter</p3><br><br>
+				<p1 id='counter'><!-- <input type="text" name="" value="0" style="width: 30px; text-align: center;"> --> 0 </p1>
+				<div><br>
+					<button id="btnD">Decrease</button>
+					<button id="btnR">Reset</button>
+					<button id="btnI">Increase</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="Restaurant.js"></script>
+</body>
+</html>

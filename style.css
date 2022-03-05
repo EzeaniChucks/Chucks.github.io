@@ -1,0 +1,84 @@
+body {
+	/*background: linear-gradient(to right, #00ff00, #ff0000);*/
+	background-color: white;
+}
+
+li {
+	list-style: none;
+	display: inline;
+	cursor: pointer;
+}
+
+.foodCat{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	/*justify-content: space-around;*/
+	/*border: 1px solid grey;
+	padding: 15px 10px;*/
+	margin: 10px 50px;
+}
+
+.foodInk{
+	background-color: skyblue;
+	/*width: 300px;*/
+	margin: 60px 0px 0px 0px;
+	border-radius: 50px;
+}
+
+.foodCatPositn{
+	text-align: center;
+	
+}
+
+img{
+	width: 70px;
+	height: 100px;
+	/*transition-property: height;*/
+}
+
+img:hover {
+	transform: scale(1.7);
+	transition-duration: 1s;
+}
+
+.foodCatPositn:hover {
+	scale: 2em;
+}
+
+.textColor{
+	color: tomato;
+}
+
+.alignCenter{
+	text-align: center;
+}
+
+.alignRight{
+	text-align: right;
+}
+
+li{
+	padding-right: 20px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 10px;
+	height: 20vh;
+}
+
+.counterDiv{
+	text-align: center;
+	grid-column: 2/3;
+	grid-row: 1/4;
+	border: 1px solid grey;
+	background-color: tomato;
+	padding: 7px;
+}
+
+button {
+	background-color: white;
+	border-radius: 30px;
+}
